@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    Lesson 1 - Extension &middot; 
+    For Key Stage 3 Computing
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1>Building Apps with</h1>
+<img src="/logo.png">        <p class="lead">A flexible 7 lesson scheme of work for app creating.<br> Created by J Robinson</p>
+<hr>
+<div class="colophon">
+          <ul class="colophon-links">
+            <li>
+              <a href="/">Home</a>
+            </li>
+ <li>
+              <a href="/L1/plan/">Lesson 1</a>
+            </li>
+ <li>
+              <a href="/L2/plan/">Lesson 2</a>
+            </li>
+ <li>
+              <a href="/L3/plan/">Lesson 3</a>
+            </li>
+ <li>
+              <a href="/L4/plan/">Lesson 4</a>
+            </li>
+ <li>
+              <a href="/L5/plan/">Lesson 5</a>
+            </li>
+ <li>
+              <a href="/L6/plan/">Lesson 6</a>
+            </li>
+<li>
+              <a href="/L7/plan/">Lesson 7</a>
+            </li>
+          </ul>
+          
+        </div>
+    
+
+
+<hr>
+
+<div class="colophon">
+
+          <ul class="colophon-links">
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor/archive/v0.5.zip">Download</a>
+            </li>
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor">GitHub project</a>
+            </li>
+            <li>Currently v0.5</li>
+          </ul>
+          <p>&copy; 2014.  All rights reserved.</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="content container">
+      <h1 id="extension-activity-1---sound-board">Extension Activity 1 - Sound Board</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>For this extension activity there are no specific guides or videos to aid you, you will be demonstrating that you have understood the key concepts from the <a href="student.md">Magic Eightball activity.</a>.</p>
+
+<ul>
+  <li>You may find the App Inventor <a href="http://appinventor.mit.edu/explore/sites/all/files/ConceptCards/ai2/AI2_ConceptCards.pdf">Concept cards</a> useful.</li>
+  <li>Some sounds and images used in the example app can be found <a href="../resources/soundboard.zip">here</a>.</li>
+</ul>
+
+<p>The aim of the activity is to create a sound board app similar to the one shown in the video clip below.</p>
+
+<iframe src="//www.youtube.com/embed/lAjAINcWyJ4" frameborder="0" allowfullscreen=""></iframe>
+<p><a href="../resources/L1d.mp4" download="L1d.mp4">Download Video</a></p>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>Open App Inventor and create a new project choosing a sensible name such as “soundboard”.</p>
+
+<p>A successful soundboard app:</p>
+
+<ul>
+  <li>Will have at lease 6 buttons.</li>
+  <li>These buttons should fill the screen.</li>
+  <li>Each button should have an appropriate label or image.</li>
+  <li>When each button is clicked the app will play the relevant sound.</li>
+  <li>Could have different behaviours for a click or a long press of the button.</li>
+</ul>
+
+<h2 id="img-classemoji-titleone-altone-srchttpsassetsgithubcomimagesiconsemojiunicode0031-20e3png-height20-width20-alignabsmiddle--arranging-the-buttons"><img class="emoji" title=":one:" alt=":one:" src="https://assets.github.com/images/icons/emoji/unicode/0031-20e3.png" height="20" width="20" align="absmiddle" /> Arranging the buttons</h2>
+<p>On your new screen you need add a button for each sound you wish to use to position these buttons you will have to explore the layout tools:</p>
+
+<ul>
+  <li>A <strong>Horizontal layout</strong> will allow you to place objects next to each other.</li>
+  <li>A <strong>Vertical layout</strong> will allow you to place objects above and below each other.</li>
+  <li>A <strong>Table Layout</strong> can be used to create a grid in which to place other objects</li>
+  <li><em>Layout tools can be place inside other layout tools to create some complex arrangements.</em></li>
+</ul>
+
+<p>You will also need to consider the width and height of each object you insert, there are 3 options:</p>
+
+<ul>
+  <li><strong>Automatic</strong>, the object will take up as little space as possible and be automatically resized.</li>
+  <li><strong>Fill parent</strong>, the object will take up as much room as it can and will resize automatically.</li>
+  <li><strong>Pixels</strong>, you can specify the exact width or height in pixels and it will not resize.</li>
+</ul>
+
+<h2 id="img-classemoji-titletwo-alttwo-srchttpsassetsgithubcomimagesiconsemojiunicode0032-20e3png-height20-width20-alignabsmiddle--adding-sounds"><img class="emoji" title=":two:" alt=":two:" src="https://assets.github.com/images/icons/emoji/unicode/0032-20e3.png" height="20" width="20" align="absmiddle" /> Adding sounds</h2>
+<p>To play a sound you will need to add a <strong>sound</strong> object from the media section of the palette, this will appear as a non-visible component. Any sounds you upload should be:</p>
+
+<ul>
+  <li>Short, the sound player object is designed for short sounds, for longer sounds you should use the <strong>player</strong> object.</li>
+  <li>Small in file size, you are limited on space in your app you should use <strong>mp3</strong> files as oppose to <strong>wav</strong> files.</li>
+</ul>
+
+<h2 id="img-classemoji-titlethree-altthree-srchttpsassetsgithubcomimagesiconsemojiunicode0033-20e3png-height20-width20-alignabsmiddle--adding-images"><img class="emoji" title=":three:" alt=":three:" src="https://assets.github.com/images/icons/emoji/unicode/0033-20e3.png" height="20" width="20" align="absmiddle" /> Adding Images</h2>
+<p>Upload you images and place one on each button, the images should be small in file size to conserve space, <em>png</em> or <em>gif</em> are ideal.</p>
+
+<h2 id="img-classemoji-titlefour-altfour-srchttpsassetsgithubcomimagesiconsemojiunicode0034-20e3png-height20-width20-alignabsmiddle--coding-the-buttons"><img class="emoji" title=":four:" alt=":four:" src="https://assets.github.com/images/icons/emoji/unicode/0034-20e3.png" height="20" width="20" align="absmiddle" /> Coding the buttons</h2>
+<p>The coding for the sound board should be pretty simple you will need a button press event for each button. The event will trigger the loading of the correct sound (by setting the sound objects source) and then playing the sound.</p>
+
+<h2 id="img-classemoji-titlefive-altfive-srchttpsassetsgithubcomimagesiconsemojiunicode0035-20e3png-height20-width20-alignabsmiddle--extending"><img class="emoji" title=":five:" alt=":five:" src="https://assets.github.com/images/icons/emoji/unicode/0035-20e3.png" height="20" width="20" align="absmiddle" /> Extending</h2>
+<p>This simple sound board app could be extending in a wide range of ways. eg:</p>
+
+<ul>
+  <li>Adding vibration when the buttons are pressed.</li>
+  <li>Adding more buttons / screens with more buttons.</li>
+  <li>Changing the look of the button whilst it’s being pressed.</li>
+  <li>Using the longpress event to trigger another behaviour, eg click plays an animal sound and long press says the name of the animal.</li>
+</ul>
+
+    </div>
+
+  </body>
+</html>

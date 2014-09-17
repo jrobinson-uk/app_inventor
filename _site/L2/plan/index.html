@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    Lesson 2 - Plan &middot; 
+    For Key Stage 3 Computing
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1>Building Apps with</h1>
+<img src="/logo.png">        <p class="lead">A flexible 7 lesson scheme of work for app creating.<br> Created by J Robinson</p>
+<hr>
+<div class="colophon">
+          <ul class="colophon-links">
+            <li>
+              <a href="/">Home</a>
+            </li>
+ <li>
+              <a href="/L1/plan/">Lesson 1</a>
+            </li>
+ <li>
+              <a href="/L2/plan/">Lesson 2</a>
+            </li>
+ <li>
+              <a href="/L3/plan/">Lesson 3</a>
+            </li>
+ <li>
+              <a href="/L4/plan/">Lesson 4</a>
+            </li>
+ <li>
+              <a href="/L5/plan/">Lesson 5</a>
+            </li>
+ <li>
+              <a href="/L6/plan/">Lesson 6</a>
+            </li>
+<li>
+              <a href="/L7/plan/">Lesson 7</a>
+            </li>
+          </ul>
+          
+        </div>
+    
+
+
+<hr>
+
+<div class="colophon">
+
+          <ul class="colophon-links">
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor/archive/v0.5.zip">Download</a>
+            </li>
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor">GitHub project</a>
+            </li>
+            <li>Currently v0.5</li>
+          </ul>
+          <p>&copy; 2014.  All rights reserved.</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="content container">
+      <h1 id="lesson-2---using-loops-and-timers">Lesson 2 - Using Loops and Timers</h1>
+
+<h3 id="img-classemoji-titlespeechballoon-altspeechballoon-srchttpsassetsgithubcomimagesiconsemojiunicode1f4acpng-height20-width20-alignabsmiddle--introduction"><img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://assets.github.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20" align="absmiddle" /> Introduction</h3>
+<p>In this lesson students will explore how to make actions happen repeatedly using simple loops and the timer object</p>
+
+<h3 id="img-classemoji-titlebooks-altbooks-srchttpsassetsgithubcomimagesiconsemojiunicode1f4dapng-height20-width20-alignabsmiddle--resources"><img class="emoji" title=":books:" alt=":books:" src="https://assets.github.com/images/icons/emoji/unicode/1f4da.png" height="20" width="20" align="absmiddle" /> Resources</h3>
+
+<p>-Student Google accounts and access to app inventor &amp; emulator / android device.
+- Teacher <a href="teacher.pptx">Presentation</a>
+- Looping examples <a href="resources/Loops.aia">App</a>
+- Stopwatch Template - <a href="resources/Stopwatch_template.aia">App Template</a>
+- Stopwatch <a href="https://www.youtube.com/watch?v=EzavOUMpdPM">Video</a>
+- Event / Action <a href="resources/planning.pdf">Planning Sheet</a></p>
+
+<h3 id="img-classemoji-titlemortarboard-altmortarboard-srchttpsassetsgithubcomimagesiconsemojiunicode1f393png-height20-width20-alignabsmiddle--learning-objectives"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://assets.github.com/images/icons/emoji/unicode/1f393.png" height="20" width="20" align="absmiddle" /> Learning Objectives</h3>
+<ul>
+  <li>To plan the required events and actions for a scenario and adapt them when required.</li>
+  <li>To develop a App using a timer loop.</li>
+  <li>To increment numeric variables.</li>
+</ul>
+
+<h3 id="img-classemoji-titlescroll-altscroll-srchttpsassetsgithubcomimagesiconsemojiunicode1f4dcpng-height20-width20-alignabsmiddle--key-vocabulary"><img class="emoji" title=":scroll:" alt=":scroll:" src="https://assets.github.com/images/icons/emoji/unicode/1f4dc.png" height="20" width="20" align="absmiddle" /> Key Vocabulary</h3>
+<p>|Word|Definition|
+|—-|———-|
+|Loop |A series of instructions repeated over and over again.|
+|Timer|A type of loop that happens at a regular interval|
+|Variable|An area for storing data within a program, given a unique name.|
+|Global Variable |A variable which is available to all parts of the program. |
+|Local Variable |A variable which is only available within the event that it is created. |
+|Boolean |A type of data that can have one of 2 values True(1) or False(0) |</p>
+
+<h3 id="img-classemoji-titleheavycheckmark-altheavycheckmark-srchttpsassetsgithubcomimagesiconsemojiunicode2714png-height20-width20-alignabsmiddle--learning-outcomes"><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://assets.github.com/images/icons/emoji/unicode/2714.png" height="20" width="20" align="absmiddle" /> Learning Outcomes</h3>
+
+<h4 id="img-classemoji-titlestar-altstar-srchttpsassetsgithubcomimagesiconsemojiunicode2b50png-height20-width20-alignabsmiddle--all-students-are-able-to"><img class="emoji" title=":star:" alt=":star:" src="https://assets.github.com/images/icons/emoji/unicode/2b50.png" height="20" width="20" align="absmiddle" /> All students are able to:</h4>
+<ul>
+  <li>Identify the key events and actions of a stopwatch.</li>
+  <li>Use a timer loop to be able make something happen repeatedly.</li>
+</ul>
+
+<h4 id="img-classemoji-titlestar-altstar-srchttpsassetsgithubcomimagesiconsemojiunicode2b50png-height20-width20-alignabsmiddle--most-students-are-able-to"><img class="emoji" title=":star:" alt=":star:" src="https://assets.github.com/images/icons/emoji/unicode/2b50.png" height="20" width="20" align="absmiddle" /> Most students are able to:</h4>
+<ul>
+  <li>Use a timer to increment a variable and display it on screen.</li>
+  <li>To decompose actions into small, clear steps.</li>
+  <li>Explain what a boolean is and use it to control the state of a timer. </li>
+</ul>
+
+<h4 id="img-classemoji-titlestar-altstar-srchttpsassetsgithubcomimagesiconsemojiunicode2b50png-height20-width20-alignabsmiddle--some-students-are-able-to"><img class="emoji" title=":star:" alt=":star:" src="https://assets.github.com/images/icons/emoji/unicode/2b50.png" height="20" width="20" align="absmiddle" /> Some students are able to:</h4>
+<ul>
+  <li>Explain how the timer app could be changed to function as a countdown timer</li>
+</ul>
+
+<h3 id="img-classemoji-titlehourglass-althourglass-srchttpsassetsgithubcomimagesiconsemojiunicode231bpng-height20-width20-alignabsmiddle--lesson-summary"><img class="emoji" title=":hourglass:" alt=":hourglass:" src="https://assets.github.com/images/icons/emoji/unicode/231b.png" height="20" width="20" align="absmiddle" /> Lesson Summary</h3>
+<ul>
+  <li>Stopwatch Planning</li>
+  <li>Recap what loops are using the <a href="Loops.aia">Looping Demo App</a></li>
+  <li>Students create a stopwatch timer following video and <a href="student.md">student instructions</a>.</li>
+  <li>Reflect on how the app could be adpated to function as a stopwatch timer.</li>
+</ul>
+
+<h3 id="img-classemoji-titlebulb-altbulb-srchttpsassetsgithubcomimagesiconsemojiunicode1f4a1png-height20-width20-alignabsmiddle--starter"><img class="emoji" title=":bulb:" alt=":bulb:" src="https://assets.github.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20" align="absmiddle" /> Starter</h3>
+<p>Discuss the function of a stopwatch timer and identify the key events and actions, recording them on the <a href="resources/planning.pdf">planning sheet</a>.</p>
+
+<ul>
+  <li>Some events are quite tangible such as button presses, others might be harder to spot.</li>
+  <li>There may be several events link to each action, they should be broken down (<strong>decomposed</strong>) as much as possible.</li>
+</ul>
+
+<h3 id="img-classemoji-titlenutandbolt-altnutandbolt-srchttpsassetsgithubcomimagesiconsemojiunicode1f529png-height20-width20-alignabsmiddle--main-development"><img class="emoji" title=":nut_and_bolt:" alt=":nut_and_bolt:" src="https://assets.github.com/images/icons/emoji/unicode/1f529.png" height="20" width="20" align="absmiddle" /> Main Development</h3>
+<ul>
+  <li>
+    <ul>
+      <li>Students follow <a href="student.md">student instructions</a> to build a stopwatch app which uses a clock.timer event to increment a counter.</li>
+    </ul>
+  </li>
+  <li>Students must regularly and thoroughly test their app.</li>
+</ul>
+
+<h3 id="img-classemoji-titlepencil-altpencil-srchttpsassetsgithubcomimagesiconsemojiunicode1f4ddpng-height20-width20-alignabsmiddle--plenary"><img class="emoji" title=":pencil:" alt=":pencil:" src="https://assets.github.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20" align="absmiddle" /> Plenary</h3>
+<p>A stopwatch often comes with a complimentary function of a countdown timer can students identify how this might change the app works in terms of events and actions. Discuss and record their ideas on their planning sheets.</p>
+
+<h3 id="img-classemoji-titlethoughtballoon-altthoughtballoon-srchttpsassetsgithubcomimagesiconsemojiunicode1f4adpng-height20-width20-alignabsmiddle--home-learning--extension"><img class="emoji" title=":thought_balloon:" alt=":thought_balloon:" src="https://assets.github.com/images/icons/emoji/unicode/1f4ad.png" height="20" width="20" align="absmiddle" /> Home Learning / Extension</h3>
+
+<p>The extension activity / app for this lesson involves creating a simple clicking game in which the player has a limited amount of time to click a button. Similar to <a href="http://orteil.dashnet.org/cookieclicker/">Cookie Clicker</a> Instructions can be found <a href="ext.md">here</a>.</p>
+
+
+    </div>
+
+  </body>
+</html>

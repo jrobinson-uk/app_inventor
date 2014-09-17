@@ -1,0 +1,22 @@
+title:        'Building Apps with'
+tagline:      'For Key Stage 3 Computing'
+
+description:  'A flexible 7 lesson scheme of work for app creating.<br> Created by J Robinson'
+
+gems:
+  - jemoji
+baseurl:	/App_Inventor
+
+version:      0.5
+
+author:
+  'one'
+name:       'two'
+  
+email:      'three'
+
+permalink:    pretty
+
+pygments:     true
+
+paginate:     5

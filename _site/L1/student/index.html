@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    Lesson 1 - Activity &middot; 
+    For Key Stage 3 Computing
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1>Building Apps with</h1>
+<img src="/logo.png">        <p class="lead">A flexible 7 lesson scheme of work for app creating.<br> Created by J Robinson</p>
+<hr>
+<div class="colophon">
+          <ul class="colophon-links">
+            <li>
+              <a href="/">Home</a>
+            </li>
+ <li>
+              <a href="/L1/plan/">Lesson 1</a>
+            </li>
+ <li>
+              <a href="/L2/plan/">Lesson 2</a>
+            </li>
+ <li>
+              <a href="/L3/plan/">Lesson 3</a>
+            </li>
+ <li>
+              <a href="/L4/plan/">Lesson 4</a>
+            </li>
+ <li>
+              <a href="/L5/plan/">Lesson 5</a>
+            </li>
+ <li>
+              <a href="/L6/plan/">Lesson 6</a>
+            </li>
+<li>
+              <a href="/L7/plan/">Lesson 7</a>
+            </li>
+          </ul>
+          
+        </div>
+    
+
+
+<hr>
+
+<div class="colophon">
+
+          <ul class="colophon-links">
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor/archive/v0.5.zip">Download</a>
+            </li>
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor">GitHub project</a>
+            </li>
+            <li>Currently v0.5</li>
+          </ul>
+          <p>&copy; 2014.  All rights reserved.</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="content container">
+      <h1 id="lesson-1---magic-eight-ball">Lesson 1 - Magic Eight Ball</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>In this activity you will be creating a magic eight ball app, the idea is that when the user asks a question the magic eight ball will give them a randomly selected answer.</p>
+
+<iframe align="middle" width="840" height="630" src="//www.youtube.com/embed/mFOracFClBg?start=11" frameborder="0" allowfullscreen=""></iframe>
+
+<p>The original magic eight ball had a range of possible answers which you could use or make up your own.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Positive</th>
+      <th>Negative</th>
+      <th>Neutral</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>It is certain</td>
+      <td>Don’t count on it</td>
+      <td>Reply hazy try again</td>
+    </tr>
+    <tr>
+      <td>It is decidedly so</td>
+      <td>My reply is no</td>
+      <td>Ask again later</td>
+    </tr>
+    <tr>
+      <td>Without a doubt</td>
+      <td>My sources say no</td>
+      <td>Better not tell you now</td>
+    </tr>
+    <tr>
+      <td>Yes definitely</td>
+      <td>Outlook not so good</td>
+      <td>Cannot predict now</td>
+    </tr>
+    <tr>
+      <td>You may rely on it</td>
+      <td>Very doubtful</td>
+      <td>Concentrate and ask again</td>
+    </tr>
+    <tr>
+      <td>As I see it, yes</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Most likely</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Outlook good</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Yes</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Signs point to yes</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>If you have never used app inventor before you may want to visit <a href="http://appinventor.mit.edu/">http://appinventor.mit.edu/</a> and watch this introduction video.</p>
+
+<iframe width="840" height="630" src="//www.youtube.com/embed/WKM8QCuxmQY" frameborder="0" allowfullscreen=""></iframe>
+
+<p><a href="../resources/L1a.mp4" download="L1a.mp4">Download Video</a></p>
+
+<h2 id="img-classemoji-titleone-altone-srchttpsassetsgithubcomimagesiconsemojiunicode0031-20e3png-height20-width20-alignabsmiddle--load-and-test-the-template"><img class="emoji" title=":one:" alt=":one:" src="https://assets.github.com/images/icons/emoji/unicode/0031-20e3.png" height="20" width="20" align="absmiddle" /> Load and test the template</h2>
+
+<p>To save time and help you focus on the programming of the magic eight ball some aspects have been completed in advance and saved in a <a href="resources\eightBall.aia">template</a> file. Download this file to your computer and follow the steps in the first part of the video to test the app. </p>
+
+<iframe width="840" height="630" src="//www.youtube.com/embed/d5l50G1n7TM" frameborder="0" allowfullscreen=""></iframe>
+<p><a href="../resources/L1b.mp4" download="L1b.mp4">Download Video</a></p>
+
+<p>Currently all the app does is change the image on the button when the button is clicked, the video will also show you how to test the app using the emulator.</p>
+
+<iframe src="//www.youtube.com/embed/_GdEzaB8Xhk" frameborder="0" allowfullscreen=""></iframe>
+<p><a href="../resources/L1c.mp4" download="L1c.mp4">Download Video</a></p>
+
+<h2 id="img-classemoji-titletwo-alttwo-srchttpsassetsgithubcomimagesiconsemojiunicode0032-20e3png-height20-width20-alignabsmiddle--displaying-a-random-answer"><img class="emoji" title=":two:" alt=":two:" src="https://assets.github.com/images/icons/emoji/unicode/0032-20e3.png" height="20" width="20" align="absmiddle" /> Displaying a random answer</h2>
+<p>Continue to watch the video and follow the steps to make the app choose and random answer and display it on the button as text.</p>
+
+<ol>
+  <li>First you need to set change the text displayed on the button by inserting a <strong>Set EightBall_Button.Image to</strong> block.</li>
+  <li>Then you will want to connect a <strong>pick a random item</strong> block</li>
+  <li>Finally connect an orange <strong>get answers</strong> block</li>
+  <li>Test your app to make sure it works.</li>
+  <li>Expand the apps range of possible answers</li>
+</ol>
+
+<h2 id="img-classemoji-titlethree-altthree-srchttpsassetsgithubcomimagesiconsemojiunicode0033-20e3png-height20-width20-alignabsmiddle--speaking-out-loud"><img class="emoji" title=":three:" alt=":three:" src="https://assets.github.com/images/icons/emoji/unicode/0033-20e3.png" height="20" width="20" align="absmiddle" /> Speaking out loud</h2>
+<p>Our app would be more impressive if it spoke the answers out to us as well as displaying them as text. The next part of the video show you how to use the <strong>texttospeech</strong> object in app inventor. Do be aware this can only say real words, it won’t understand misspelt words.</p>
+
+<ol>
+  <li>Find the purple <strong>TextToSpeech1.Speak</strong> block and connect below the code that changes the button text.</li>
+  <li>The app will speak out loud whatever is connected to the message connector, add another <strong>pick random item, get global answers</strong> we used earlier.</li>
+  <li>Test the app to ensure it works as expected (ensure you a thorough in your testing)</li>
+</ol>
+
+<h2 id="img-classemoji-titlefour-altfour-srchttpsassetsgithubcomimagesiconsemojiunicode0034-20e3png-height20-width20-alignabsmiddle--odd-behaviour"><img class="emoji" title=":four:" alt=":four:" src="https://assets.github.com/images/icons/emoji/unicode/0034-20e3.png" height="20" width="20" align="absmiddle" /> Odd behaviour</h2>
+<p>You probably found that the app didn’t quite behave as expected, the text and speech didn’t match up? Why was this? Currently our app does this:</p>
+
+<ol>
+  <li>Changes the images</li>
+  <li>Starts a timer</li>
+  <li>Sets the text to a random answer from the list</li>
+  <li>Read out the text from a random answer from the list.</li>
+</ol>
+
+<p>The problem is that the app picks a random answer twice, these answers could be different and result in different things being displayed and read aloud. This is an example of a <strong>logical</strong> error, the code makes sense to the machine but doesn’t do what we thought it would.</p>
+
+<p>To fix the issue we need to pick a random answer once and store that answer in a <strong>variable</strong>. We will then read that variable and use if for the text and the speech.</p>
+
+<ol>
+  <li>Add an <strong>initialize global</strong> block called <em>answer</em> and give it a empty string value (purple “ “).</li>
+  <li>In the <strong>button_click</strong> event add an orange <strong>Set global answer</strong> and attach the <strong>pick random item, get global answers</strong></li>
+  <li>For both the text and the speech replace the <strong>pick random item, get global answers</strong> with an orange <strong>get global answer</strong></li>
+  <li>Test the changes made to the app.</li>
+</ol>
+
+<p>The next part of the video explains this in more detail.</p>
+
+<h2 id="img-classemoji-titlesix-altsix-srchttpsassetsgithubcomimagesiconsemojiunicode0036-20e3png-height20-width20-alignabsmiddle---documenting"><img class="emoji" title=":six:" alt=":six:" src="https://assets.github.com/images/icons/emoji/unicode/0036-20e3.png" height="20" width="20" align="absmiddle" />  Documenting</h2>
+<p>You Magic eight ball app is now complete. Something that all good programmers do is to document what there code does. Add to the comments given to you in the template to explain what your app now does.</p>
+
+<p><img src="../resources/comments.png" alt="" /></p>
+
+<h2 id="img-classemoji-titleseven-altseven-srchttpsassetsgithubcomimagesiconsemojiunicode0037-20e3png-height20-width20-alignabsmiddle--extending"><img class="emoji" title=":seven:" alt=":seven:" src="https://assets.github.com/images/icons/emoji/unicode/0037-20e3.png" height="20" width="20" align="absmiddle" /> Extending</h2>
+<p>Now that you have followed the tutorial to create a magic eight ball, lets see if you can add to it. Here are some ideas for extending your app:</p>
+
+<ul>
+  <li>Add your own comment bank to the app.</li>
+  <li>Add some sound effects when the app is choosing it’s answer</li>
+  <li>Fix the app so it’s always in portrait mode</li>
+  <li>Make it respond to being shaken as well / instead of touching the button. (You will need an <strong>accelerometerSensor</strong>)</li>
+</ul>
+
+
+    </div>
+
+  </body>
+</html>
