@@ -14,7 +14,7 @@ For this extension activity there are no specific guides or videos to aid you, y
 The aim of the activity is to create a sound board app similar to the one shown in the video clip below.
 
 <iframe src="//www.youtube.com/embed/lAjAINcWyJ4" frameborder="0" allowfullscreen></iframe>
-<a href="../resources/L1d.mp4" download="L1d.mp4">Download Video</a>
+<a href="https://drive.google.com/file/d/0B-rfCDlnYkY0NnNqNjF5YlZyQ3M/edit?usp=sharing" download="L1d.mp4">Download Video</a>
 
 ## Getting Started
 Open App Inventor and create a new project choosing a sensible name such as "soundboard".

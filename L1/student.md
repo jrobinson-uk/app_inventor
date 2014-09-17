@@ -30,19 +30,19 @@ If you have never used app inventor before you may want to visit [http://appinve
 
 <iframe width="840" height="630" src="//www.youtube.com/embed/WKM8QCuxmQY" frameborder="0" allowfullscreen></iframe>
 
-<a href="../resources/L1a.mp4" download="L1a.mp4">Download Video</a>
+<a href="https://drive.google.com/file/d/0B-rfCDlnYkY0SFQzTGxxS0FCWEk/edit?usp=sharing" download="L1a.mp4">Download Video</a>
 
 ## :one: Load and test the template
 
 To save time and help you focus on the programming of the magic eight ball some aspects have been completed in advance and saved in a [template](resources\eightBall.aia) file. Download this file to your computer and follow the steps in the first part of the video to test the app. 
 
 <iframe width="840" height="630" src="//www.youtube.com/embed/d5l50G1n7TM" frameborder="0" allowfullscreen></iframe>
-<a href="../resources/L1b.mp4" download="L1b.mp4">Download Video</a>
+<a href="https://drive.google.com/file/d/0B-rfCDlnYkY0REYyZ3Q3Ymw3U2c/edit?usp=sharing" download="L1b.mp4">Download Video</a>
 
 Currently all the app does is change the image on the button when the button is clicked, the video will also show you how to test the app using the emulator.
 
 <iframe src="//www.youtube.com/embed/_GdEzaB8Xhk" frameborder="0" allowfullscreen></iframe>
-<a href="../resources/L1c.mp4" download="L1c.mp4">Download Video</a>
+<a href="https://drive.google.com/file/d/0B-rfCDlnYkY0cG42UDZDWW5jU0k/edit?usp=sharing" download="L1c.mp4">Download Video</a>
 
 ## :two: Displaying a random answer
 Continue to watch the video and follow the steps to make the app choose and random answer and display it on the button as text.
