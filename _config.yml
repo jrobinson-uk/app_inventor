@@ -5,7 +5,7 @@ description:  'A flexible 7 lesson scheme of work for app creating.<br> Created 
 
 gems:
   - jemoji
-baseurl:	/App_Inventor
+baseurl:	/app_inventor
 
 version:      0.5
 
