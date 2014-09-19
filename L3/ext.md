@@ -1,5 +1,5 @@
 ---
-title: Lesson 1 - Extension
+title: Lesson 3 - Extension
 layout: default
 ---
 # Extension Activity 3 - Easy Pool
