@@ -1,6 +1,6 @@
 ---
 title: Lesson 1 - Activity
-layout: default
+layout: page
 ---
 
 # Lesson 1 - Magic Eight Ball

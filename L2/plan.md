@@ -1,6 +1,6 @@
 ---
 title: Lesson 2 - Plan
-layout: default
+layout: page
 ---
 # Lesson 2 - Using Loops and Timers
 
@@ -9,12 +9,12 @@ In this lesson students will explore how to make actions happen repeatedly using
 
 ### :books: Resources
 
--Student Google accounts and access to app inventor & emulator / android device.
-- Teacher [Presentation](teacher.pptx)
-- Looping examples [App](resources/Loops.aia)
-- Stopwatch Template - [App Template](resources/Stopwatch_template.aia)
+- Student Google accounts and access to app inventor & emulator / android device.
+- Teacher [Presentation](../resources/teacher.pptx)
+- Looping examples [App](../resources/Looping.aia)
+- Stopwatch Template - [App Template](../resources/Stopwatch_template.aia)
 - Stopwatch [Video](https://www.youtube.com/watch?v=EzavOUMpdPM)
-- Event / Action [Planning Sheet](resources/planning.pdf)
+- Event / Action [Planning Sheet](../resources/planning.pdf)
 
 ### :mortar_board: Learning Objectives
 - To plan the required events and actions for a scenario and adapt them when required.
@@ -22,6 +22,7 @@ In this lesson students will explore how to make actions happen repeatedly using
 - To increment numeric variables.
 
 ### :scroll: Key Vocabulary
+
 |Word|Definition|
 |----|----------|
 |Loop |A series of instructions repeated over and over again.|
@@ -46,19 +47,18 @@ In this lesson students will explore how to make actions happen repeatedly using
 - Explain how the timer app could be changed to function as a countdown timer
 
 ### :hourglass: Lesson Summary
-- Stopwatch Planning
-- Recap what loops are using the [Looping Demo App](Loops.aia)
-- Students create a stopwatch timer following video and [student instructions](student.md).
+- Stopwatch Planning **or** Recap what loops are using the [Looping Demo App](../resources/Loops.aia)
+- Students create a stopwatch timer following video and [student instructions](../student/).
 - Reflect on how the app could be adpated to function as a stopwatch timer.
 
 ### :bulb: Starter
-Discuss the function of a stopwatch timer and identify the key events and actions, recording them on the [planning sheet](resources/planning.pdf).
+Discuss the function of a stopwatch timer and identify the key events and actions, recording them on the [planning sheet](../resources/planning.pdf).
 
 - Some events are quite tangible such as button presses, others might be harder to spot.
-- There may be several events link to each action, they should be broken down (**decomposed**) as much as possible.
+- There may be several actions link to each event, they should be broken down (**decomposed**) as much as possible.
 
 ### :nut_and_bolt: Main Development
-- - Students follow [student instructions](student.md) to build a stopwatch app which uses a clock.timer event to increment a counter.
+- Students follow [student instructions](../student/) to build a stopwatch app which uses a clock.timer event to increment a counter.
 - Students must regularly and thoroughly test their app.
 
 ### :pencil: Plenary
@@ -68,5 +68,5 @@ A stopwatch often comes with a complimentary function of a countdown timer can s
 
 ### :thought_balloon: Home Learning / Extension
 
-The extension activity / app for this lesson involves creating a simple clicking game in which the player has a limited amount of time to click a button. Similar to [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/) Instructions can be found [here](ext.md).
+The extension activity / app for this lesson involves creating a simple clicking game in which the player has a limited amount of time to click a button. Similar to [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/) Instructions can be found [here](../ext/).
 

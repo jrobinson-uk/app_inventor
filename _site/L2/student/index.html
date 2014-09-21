@@ -83,9 +83,86 @@
     </header>
 
     <div class="content container">
-      <p><img src="http://appinventor.mit.edu/explore/sites/all/themes/appinventor/logo.png" alt="" /></p>
+      	<table>
+			<thead>
+				<tr>
+				<th><a href="../plan/">Lesson Plan</a></th>
+				<th><a href="../student/">Main Activity</a></th>
+				<th><a href="../ext/">Extension Activity</a></th>
+			</tr>
+			</thead>
+		</table>
+<hr>
+		<h1 id="lesson-2---stopwatch">Lesson 2 - Stopwatch</h1>
 
-<h1 id="lesson-2---student-instuctions">Lesson 2 - Student Instuctions</h1>
+<h2 id="introduction">Introduction</h2>
+<p>In this activity you will be creating a stopwatch app, the idea is that:
+- When the user presses start the timer should be enabled 
+- When the stop button is pressed the timer should be disabled
+- When the Reset button is pressed the time stored should be cleared
+- The time increase the time every tenth of a second and display the current time.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>If you have never used app inventor before you may want to visit <a href="http://appinventor.mit.edu/">http://appinventor.mit.edu/</a> and watch this introduction video.</p>
+
+<iframe width="840" height="630" src="//www.youtube.com/embed/WKM8QCuxmQY" frameborder="0" allowfullscreen=""></iframe>
+
+<p><a href="https://drive.google.com/file/d/0B-rfCDlnYkY0SFQzTGxxS0FCWEk/edit?usp=sharing" download="L1a.mp4">Download Video</a></p>
+
+<h2 id="img-classemoji-titleone-altone-srchttpsassetsgithubcomimagesiconsemojiunicode0031-20e3png-height20-width20-alignabsmiddle--load-and-test-the-template"><img class="emoji" title=":one:" alt=":one:" src="https://assets.github.com/images/icons/emoji/unicode/0031-20e3.png" height="20" width="20" align="absmiddle" /> Load and test the template</h2>
+
+<p>To save time and help you focus on the programming of the stopwatch some aspects have been completed in advance and saved in a <a href="resources\stopwatch.aia">template</a> file. Download this file to your computer and load it in an emulator or on a device. </p>
+
+<iframe width="840" height="630" src="//www.youtube.com/embed/EzavOUMpdPM" frameborder="0" allowfullscreen=""></iframe>
+
+<p>Currently the app does very little but you should load it, explore how it has been made so far and load it ready in the emulator.</p>
+
+<iframe src="//www.youtube.com/embed/_GdEzaB8Xhk" frameborder="0" allowfullscreen=""></iframe>
+<p><a href="https://drive.google.com/file/d/0B-rfCDlnYkY0cG42UDZDWW5jU0k/edit?usp=sharing" download="L1c.mp4">Download Video</a></p>
+
+<h2 id="img-classemoji-titletwo-alttwo-srchttpsassetsgithubcomimagesiconsemojiunicode0032-20e3png-height20-width20-alignabsmiddle--making-the-timer-tick"><img class="emoji" title=":two:" alt=":two:" src="https://assets.github.com/images/icons/emoji/unicode/0032-20e3.png" height="20" width="20" align="absmiddle" /> Making the timer tick</h2>
+<p>Continue to watch the video and follow the steps to make the clock.timer event work and the timer tick</p>
+
+<ol>
+  <li>Add a clock1.timer event to you blocks.</li>
+  <li>Find the value of tenths of second add 1 to it and store the new value back in tenths of seconds or (<strong>Set ts to - get ts + 1</strong>).<img src="../resources/variable.png" alt="" /></li>
+  <li>This will count but not display the value, to do this make it set the text of the current_time label to the ts variable.</li>
+  <li>Next you need to enable the timer when start is pressed by adding a “True” block to the “Set clock1.TimerEnabled to” block.</li>
+  <li>Finally you need to make the stop button work in a similar way to the Start.</li>
+</ol>
+
+<h2 id="img-classemoji-titlethree-altthree-srchttpsassetsgithubcomimagesiconsemojiunicode0033-20e3png-height20-width20-alignabsmiddle--displaying-the-time-nicely"><img class="emoji" title=":three:" alt=":three:" src="https://assets.github.com/images/icons/emoji/unicode/0033-20e3.png" height="20" width="20" align="absmiddle" /> Displaying the time nicely</h2>
+<p>Our display currently is not good as it only shows the number of tenths of seconds since the start, not the seconds, minutes or hours.</p>
+
+<ol>
+  <li>First create a pink text join block with 7 connectors (one for each variable and 3 separators).</li>
+  <li>Replace the text set to the <strong>Current_time</strong> label with the join block.</li>
+  <li>Connect the hours,minutes,seconds and tenths blocks to the join block with a “:” piece of text between them.</li>
+  <li>Test you app.</li>
+</ol>
+
+<h2 id="img-classemoji-titlefour-altfour-srchttpsassetsgithubcomimagesiconsemojiunicode0034-20e3png-height20-width20-alignabsmiddle--carrying-over-the-columns"><img class="emoji" title=":four:" alt=":four:" src="https://assets.github.com/images/icons/emoji/unicode/0034-20e3.png" height="20" width="20" align="absmiddle" /> Carrying over the columns</h2>
+<p>To carry over the tenths of seconds column to seconds we will need to use an if block. </p>
+
+<p>This if block will ask if the tenths of seconds has reached 9. If is has then it will:
+1. set the number of tenths back to 0
+2. add 1 to the number of seconds.</p>
+
+<p>Using this method you should be able do the same for the minutes and hours.</p>
+
+<h2 id="img-classemoji-titlesix-altsix-srchttpsassetsgithubcomimagesiconsemojiunicode0036-20e3png-height20-width20-alignabsmiddle---reset-button"><img class="emoji" title=":six:" alt=":six:" src="https://assets.github.com/images/icons/emoji/unicode/0036-20e3.png" height="20" width="20" align="absmiddle" />  Reset Button</h2>
+<p>Nearly there, our reset button needs to do 2 things.
+1. Reset each of our timer variables to 0
+2. Update the display with the newly reset time
+## <img class="emoji" title=":seven:" alt=":seven:" src="https://assets.github.com/images/icons/emoji/unicode/0037-20e3.png" height="20" width="20" align="absmiddle" /> Extending
+Now that you have followed the tutorial to create a stopwatch, lets see if you can add to it. Here are some ideas for extending your app:</p>
+
+<ul>
+  <li>Currently the timer is a little out due to using tenths of seconds, can you adjust the timer interval to make it more accurate.</li>
+  <li>Could you add lap or split functions?</li>
+  <li>How would you adapt this app to make a countdown timer instead.</li>
+</ul>
+
 
     </div>
 

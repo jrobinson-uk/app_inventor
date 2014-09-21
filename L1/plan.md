@@ -1,6 +1,6 @@
 ---
 title: Lesson 1 - Plan
-layout: default
+layout: page
 ---
 # Lesson 1 - Creating apps with Events and actions
 

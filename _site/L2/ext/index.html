@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <title>
+    Lesson 2 - Extension &middot; 
+    For Key Stage 3 Computing
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1>Building Apps with</h1>
+<img src="/logo.png">        <p class="lead">A flexible 7 lesson scheme of work for app creating.<br> Created by J Robinson</p>
+<hr>
+<div class="colophon">
+          <ul class="colophon-links">
+            <li>
+              <a href="/">Home</a>
+            </li>
+ <li>
+              <a href="/L1/plan/">Lesson 1</a>
+            </li>
+ <li>
+              <a href="/L2/plan/">Lesson 2</a>
+            </li>
+ <li>
+              <a href="/L3/plan/">Lesson 3</a>
+            </li>
+ <li>
+              <a href="/L4/plan/">Lesson 4</a>
+            </li>
+ <li>
+              <a href="/L5/plan/">Lesson 5</a>
+            </li>
+ <li>
+              <a href="/L6/plan/">Lesson 6</a>
+            </li>
+<li>
+              <a href="/L7/plan/">Lesson 7</a>
+            </li>
+          </ul>
+          
+        </div>
+    
+
+
+<hr>
+
+<div class="colophon">
+
+          <ul class="colophon-links">
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor/archive/v0.5.zip">Download</a>
+            </li>
+            <li>
+              <a href="https://github.com/jrobinson-uk/App_Inventor">GitHub project</a>
+            </li>
+            <li>Currently v0.5</li>
+          </ul>
+          <p>&copy; 2014.  All rights reserved.</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="content container">
+      	<table>
+			<thead>
+				<tr>
+				<th><a href="../plan/">Lesson Plan</a></th>
+				<th><a href="../student/">Main Activity</a></th>
+				<th><a href="../ext/">Extension Activity</a></th>
+			</tr>
+			</thead>
+		</table>
+<hr>
+		<h1 id="extension-activity-2---cookie-clicker-clone">Extension Activity 2 - Cookie Clicker Clone</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>For this extension activity there are no specific guides or videos to aid you, you will be demonstrating that you have understood the key concepts from the <a href="../student.md">Stopwatch App.</a>.</p>
+
+<ul>
+  <li>You may find the App Inventor <a href="http://appinventor.mit.edu/explore/sites/all/files/ConceptCards/ai2/AI2_ConceptCards.pdf">Concept cards</a> useful.</li>
+  <li>You will need to source your own images and sounds for this app.</li>
+</ul>
+
+<p>The aim of the activity is to create simple clicker game (like <a href="http://orteil.dashnet.org/cookieclicker/">cookie clicker</a>)in which the player has to click a button as often as they can in a fixed time (30 seconds). </p>
+
+<h2 id="getting-started">Getting Started</h2>
+<p>Open App Inventor and create a new project choosing a sensible name such as “clicker”.</p>
+
+<p>A successful app:</p>
+
+<ul>
+  <li>Will have a button to click.</li>
+  <li>A variable for each of your score and your time.</li>
+  <li>Appropriate starting values for you variables</li>
+  <li>Somewhere to display the score</li>
+  <li>A timer to countdown the time variable.</li>
+  <li>Somewhere to display the current time.</li>
+  <li>An image for you button.</li>
+</ul>
+
+<h2 id="img-classemoji-titleone-altone-srchttpsassetsgithubcomimagesiconsemojiunicode0031-20e3png-height20-width20-alignabsmiddle--scoring-points"><img class="emoji" title=":one:" alt=":one:" src="https://assets.github.com/images/icons/emoji/unicode/0031-20e3.png" height="20" width="20" align="absmiddle" /> Scoring points</h2>
+<p>Add a button to your first screen and make it a suitable size, remember:</p>
+
+<ul>
+  <li><strong>Automatic</strong>, the object will take up as little space as possible and be automatically resized.</li>
+  <li><strong>Fill parent</strong>, the object will take up as much room as it can and will resize automatically.</li>
+  <li><strong>Pixels</strong>, you can specify the exact width or height in pixels and it will not resize.</li>
+</ul>
+
+<p>Next configure your blocks so that when the <strong>button is clicked</strong> the <strong>score is increased by 1</strong> and the <strong>score is updated</strong> on the screen.</p>
+
+<p><strong>Remember to increase a variable you would say :</strong> *set myvariable to myvariable + 1 *</p>
+
+<h2 id="img-classemoji-titletwo-alttwo-srchttpsassetsgithubcomimagesiconsemojiunicode0032-20e3png-height20-width20-alignabsmiddle--counting-down"><img class="emoji" title=":two:" alt=":two:" src="https://assets.github.com/images/icons/emoji/unicode/0032-20e3.png" height="20" width="20" align="absmiddle" /> Counting down</h2>
+<p>We now need to decrease time, so that the game can be made to end. Your <strong>clock object</strong> has an event called <strong>timer</strong>, in this event you will want to:
+- decrease you time variable by 1
+- update the time displayed on screen</p>
+
+<h2 id="img-classemoji-titlethree-altthree-srchttpsassetsgithubcomimagesiconsemojiunicode0033-20e3png-height20-width20-alignabsmiddle--ending-the-game"><img class="emoji" title=":three:" alt=":three:" src="https://assets.github.com/images/icons/emoji/unicode/0033-20e3.png" height="20" width="20" align="absmiddle" /> Ending the game</h2>
+<p>If you play your game you will find that it continues to count time below 0 and produces negative numbers, to fix this:
+- After your timer decreases the time, as <strong>if</strong> the time left is less than or equal to 0.
+- <strong>If</strong> it then stop the timer</p>
+
+<h2 id="img-classemoji-titlefour-altfour-srchttpsassetsgithubcomimagesiconsemojiunicode0034-20e3png-height20-width20-alignabsmiddle--game-over-screen"><img class="emoji" title=":four:" alt=":four:" src="https://assets.github.com/images/icons/emoji/unicode/0034-20e3.png" height="20" width="20" align="absmiddle" /> Game Over screen</h2>
+<p>Can you add a second screen called game over, when the times reaches 0 it should <strong>open another screen</strong> display a game over message. Add a button to take you back the game screen and label it something like “try again”.</p>
+
+<h2 id="img-classemoji-titlefive-altfive-srchttpsassetsgithubcomimagesiconsemojiunicode0035-20e3png-height20-width20-alignabsmiddle--extending"><img class="emoji" title=":five:" alt=":five:" src="https://assets.github.com/images/icons/emoji/unicode/0035-20e3.png" height="20" width="20" align="absmiddle" /> Extending</h2>
+<p>This simple sound board app could be extending in a wide range of ways. eg:</p>
+
+<ul>
+  <li>Display the players score on the game over screen (need to pass a start value)</li>
+  <li>Sound effects / music</li>
+  <li>Multiple buttons</li>
+</ul>
+
+    </div>
+
+  </body>
+</html>

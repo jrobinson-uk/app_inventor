@@ -1,6 +1,6 @@
 ---
 title: Lesson 1 - Extension
-layout: default
+layout: page
 ---
 # Extension Activity 1 - Sound Board
 
