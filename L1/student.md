@@ -34,7 +34,7 @@ If you have never used app inventor before you may want to visit [http://appinve
 
 ## :one: Load and test the template
 
-To save time and help you focus on the programming of the magic eight ball some aspects have been completed in advance and saved in a [template](resources\eightBall.aia) file. Download this file to your computer and follow the steps in the first part of the video to test the app. 
+To save time and help you focus on the programming of the magic eight ball some aspects have been completed in advance and saved in a [template](../resources\eightBall.aia) file. Download this file to your computer and follow the steps in the first part of the video to test the app. 
 
 <iframe width="840" height="630" src="//www.youtube.com/embed/d5l50G1n7TM" frameborder="0" allowfullscreen></iframe>
 <a href="https://drive.google.com/file/d/0B-rfCDlnYkY0REYyZ3Q3Ymw3U2c/edit?usp=sharing" download="L1b.mp4">Download Video</a>
