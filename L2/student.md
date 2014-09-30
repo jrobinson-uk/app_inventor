@@ -21,7 +21,7 @@ If you have never used app inventor before you may want to visit [http://appinve
 
 ## :one: Load and test the template
 
-To save time and help you focus on the programming of the stopwatch some aspects have been completed in advance and saved in a [template](resources\Stopwatch_Template.aia) file. Download this file to your computer and load it in an emulator or on a device. 
+To save time and help you focus on the programming of the stopwatch some aspects have been completed in advance and saved in a [template](..\resources\Stopwatch_Template.aia) file. Download this file to your computer and load it in an emulator or on a device. 
 
 <iframe width="840" height="630" src="//www.youtube.com/embed/EzavOUMpdPM" frameborder="0" allowfullscreen></iframe>
 
