@@ -65,22 +65,27 @@ This will need to be repeated for each of the colour buttons.
 ## :six:  Taking a picture
 So we can create some simple drawings, it'd be great if we could take pictures to draw on too. Oh we can? Great!!!
 There are 2 events involved in creating this function:
+
 1. The first is the button click, when the button is pressed our app should load the camera app and allow the user to take the picture.
 2. The second occurs when the picture has been taken and our app takes over again, the picture that was taken should be set as the canvas background.
+
 ## :seven: Clearing, saving & sharing
 Three functions remain, the clear button, the save button and finally the sharing button, these are fairly simple functions and can be completed in a few blocks.
 
 **Clearing**
+
 1. Create a button click event for the clear button.
 2. Find the Canvas.Clear function and add it (this will only erase the drawing)
 3. Set the canvas background image to nothing (give it a empty text block)
 
 **Saving**
+
 1. Create a button click event for the save button.
 2. Find a *"call canvas1.SaveAs"* block and attach a text block.
 3. The block will *"return"* or tell you the filename where the image was save, we could use this but for now should use a *"evaluate but ignore result"* block.
 
 **Sharing**
+
 1. Create a button click event for the share button.
 2. Add a *"Call Sharing1.Sharefile"* block and attach a copy of the *"SaveAs"* block from earlier.
 3. This will save the image and pass the image file to the sharing object which can share it.
