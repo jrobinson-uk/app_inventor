@@ -30,8 +30,9 @@ Currently the app has almost all the right objects and layout setup, however the
 
 <iframe width="840" height="630" src="//www.youtube.com/embed/rGnFffBh8vk" frameborder="0" allowfullscreen></iframe>
 
+
+**How to run the emulator**
 <iframe src="//www.youtube.com/embed/_GdEzaB8Xhk" frameborder="0" allowfullscreen></iframe>
-<a href="https://drive.google.com/file/d/0B-rfCDlnYkY0cG42UDZDWW5jU0k/edit?usp=sharing" download="L1c.mp4">Download Video</a>
 
 ## :two: Improving the GUI
 The Graphical User Interface (GUI) for this app is largely complete but lacks some nice buttons. Find a suitable graphic for each and add them to the app. I found mine on [Icon Finder](https://www.iconfinder.com/browse)
