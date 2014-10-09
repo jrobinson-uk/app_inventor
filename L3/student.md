@@ -24,9 +24,11 @@ If you have never used app inventor before you may want to visit [http://appinve
 
 To save time and help you focus on the programming of the stopwatch some aspects have been completed in advance and saved in a [template](..\resources\Sketchpad_template.aia) file. Download this file to your computer and load it in an emulator or on a device. 
 
-<iframe width="840" height="630" src="//www.youtube.com/embed/rGnFffBh8vk" frameborder="0" allowfullscreen></iframe>
+![](../resources/sketchpad.png)
 
 Currently the app has almost all the right objects and layout setup, however there is no code at all. Use the video tutorial below along with the instructions to create your app.
+
+<iframe width="840" height="630" src="//www.youtube.com/embed/rGnFffBh8vk" frameborder="0" allowfullscreen></iframe>
 
 <iframe src="//www.youtube.com/embed/_GdEzaB8Xhk" frameborder="0" allowfullscreen></iframe>
 <a href="https://drive.google.com/file/d/0B-rfCDlnYkY0cG42UDZDWW5jU0k/edit?usp=sharing" download="L1c.mp4">Download Video</a>
