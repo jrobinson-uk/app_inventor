@@ -32,6 +32,7 @@ Currently the app has almost all the right objects and layout setup, however the
 
 
 **How to run the emulator**
+
 <iframe src="//www.youtube.com/embed/_GdEzaB8Xhk" frameborder="0" allowfullscreen></iframe>
 
 ## :two: Improving the GUI
